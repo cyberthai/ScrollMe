@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <title>ScrollMe</title>
+  <style>
+
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      text-align: center;
+    }
+
+    body {
+      background: linear-gradient(#FEAC5E, #C779D0, #4BC0C8);
+    }
+
+    .jar {
+      width: 100vw;
+      height: 100vh;
+      background-image: url('img/jar.jpg');
+      background-position: center;
+      background-size: cover;
+    }
+
+    .BGforScrollMe {
+      padding-top: 57px;
+    }
+
+    .text {
+      font-family: 'Lobster', cursive;
+      font-size: 50px;
+      color: white;
+    }
+
+    .mainText {
+      font-size: 90px;
+      padding-top: 5em;
+    }
+
+    .moreText {
+      font-family: sans-serif;
+      font-size: 1em;
+      font-weight: 200;
+      color: white;
+      width: 50vw;
+      margin: 25px auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="item">
+    <div class="img jar jarcontainer">
+      <div class=" text mainText">ScrollMe Test</div>
+    </div>
+
+    <div class="scrollme BGforScrollMe">
+      <div class="animateme text" data-when="enter" data-from="0.9" data-to="0" data-opacity="0" data-translatex="-600">
+          Slide in
+      </div>
+    </div>
+
+    <div class="moreText">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+    <div class="moreText">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+  </div>
+
+  <div class="item item2">
+    <div class="scrollme BGforScrollMe">
+      <div class="animateme text" data-when="enter" data-from="0.9" data-to="0" data-opacity="0" data-scalex="10">
+        Scale
+      </div>
+    </div>
+
+    <div class="moreText">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+
+    <div class="moreText">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+  </div>
+
+  <div class="item item2">
+    <div class="scrollme BGforScrollMe">
+      <div class="animateme text" data-when="span" data-from="0" data-to="1" data-easing="easeinout" data-rotatey="720">
+        Rotate
+      </div>
+    </div>
+
+    <div class="moreText">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+
+    <div class="moreText">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="jquery.scrollme.js"></script>
+  <script type="text/javascript">
+
+
+  </script>
+
+</body>
+</html>
